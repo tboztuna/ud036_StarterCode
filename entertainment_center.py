@@ -21,7 +21,7 @@ the_matrix = media.Movie("The Matrix",
                          "https://www.youtube.com/watch?v=vKQi3bBA1y8")
 
 memento = media.Movie("Memento",
-                      "https://images-na.ssl-images-amazon.com/images/M/MV5BZTcyNjk1MjgtOWI3Mi00YzQwLWI5MTktMzY4ZmI2NDAyNzYzXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SY1000_CR0,0,681,1000_AL_.jpg",
+                      "http://www.impawards.com/2001/posters/memento_xlg.jpg",
                       "https://www.youtube.com/watch?v=0vS0E9bBSL0")
 
 # put movie instances into a list
