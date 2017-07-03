@@ -1,5 +1,7 @@
 import media
 import fresh_tomatoes
+import api
+import json
 
 jurassic_park = media.Movie("Jurassic Park",
                             "http://img.moviepostershop.com/jurassic-park-movie-poster-1992-1020141477.jpg",
@@ -28,4 +30,9 @@ memento = media.Movie("Memento",
 movies = [jurassic_park, the_godfather, fight_club, inception, the_matrix, memento]
 
 # render and open html page with passing the movie list
-fresh_tomatoes.open_movies_page(movies)
+#fresh_tomatoes.open_movies_page(movies)
+the_movie_db = api.TheMovieDb("55ed321f0e57e3983da866087cb460f6")
+contents = json.loads(the_movie_db.discover())
+
+for item in contents["results"]:
+    print item["title"]
