@@ -35,4 +35,4 @@ the_movie_db = api.TheMovieDb("55ed321f0e57e3983da866087cb460f6")
 contents = json.loads(the_movie_db.discover())
 
 for item in contents["results"]:
-    print item["title"]
+    movies = 
