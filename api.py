@@ -1,6 +1,7 @@
 import json
 import urllib
 
+
 class TheMovieDb():
     """This class provides a way to connect to the movie db api
     to get related information about the films
