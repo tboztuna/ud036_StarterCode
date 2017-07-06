@@ -3,7 +3,7 @@ import json
 import media
 import fresh_tomatoes
 
-the_movie_db = api.TheMovieDb("55ed321f0e57e3983da866087cb460f6")
+the_movie_db = api.TheMovieDb("YOUR_API_KEY")
 contents = json.loads(the_movie_db.discover())
 
 movies = list()
